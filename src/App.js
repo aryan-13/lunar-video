@@ -1,6 +1,5 @@
 import './App.css';
-import Navbar from './Components/Header/Navbar';
-import Sidebar from './Components/Header/Sidebar';
+import { Navbar, Sidebar } from './Components/index.js';
 
 function App() {
 	return (
