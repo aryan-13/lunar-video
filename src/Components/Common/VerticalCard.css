@@ -1,0 +1,19 @@
+.card-container {
+	width: 100%;
+	box-shadow: none;
+}
+.heading-box {
+	justify-content: space-between;
+}
+@media (min-width: 480px) {
+	.card-container {
+		width: 36rem;
+	}
+}
+/* @media (min-width: 1230px) {
+	.card-container {
+		width: 30rem;
+	}
+} */
+
+/* 1228 */
