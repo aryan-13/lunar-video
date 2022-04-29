@@ -5,8 +5,8 @@ function VerticalCard() {
 		<div class="card-container">
 			<div class="img-box u-margin-bottom-small">
 				<img
-					src="https://i.ytimg.com/an_webp/7jaMJGtAV9M/mqdefault_6s.webp?du=3000&sqp=CP3WpZMG&rs=AOn4CLAgii4tSixi1pdbfHWD2_jra2WWlQ"
-					alt=""
+					src="https://i.ytimg.com/vi/gny4B5YOV0s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC6IERwCJqSJb69kYwghqnjerKtHw"
+					alt="video-thumbnail"
 				/>
 			</div>
 			<div class="card-header u-margin-bottom-small">
