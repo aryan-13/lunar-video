@@ -8,8 +8,6 @@
 	-webkit-box-shadow: 0px 5px 8px 0px rgba(128, 120, 120, 0.35);
 	-moz-box-shadow: 0px 5px 8px 0px #80787859;
 	margin-bottom: var(--size-1);
-	top: 0;
-	position: sticky;
 }
 
 .navigation-box {
@@ -38,7 +36,12 @@
 	padding: 0;
 	margin: 0;
 }
-
+.nav-search {
+	width: 50%;
+}
+.basic-input {
+	padding: 1rem;
+}
 .nav-child:hover,
 .menu-item:hover,
 .btn-tertiary-icon:hover {
