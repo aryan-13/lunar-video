@@ -142,8 +142,8 @@ button {
 	isolation: isolate;
 }
 @media (max-width: 480px) {
-	/* html,
+	html,
 	body {
 		font-size: 50%;
-	} */
+	}
 }

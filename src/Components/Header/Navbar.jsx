@@ -11,14 +11,14 @@ const Navbar = () => {
 				</Link>
 
 				<div className="menu-box">
-					{/* <ul className="menu-list no-bullets ">
+					<ul className="menu-list no-bullets ">
 						<li className="menu-item bold-1">
 							<Link to="/"> Explore</Link>
 						</li>
 						<li className="menu-item bold-1">
 							<Link to="/products"> Playlists</Link>
 						</li>
-					</ul> */}
+					</ul>
 				</div>
 				<div className="nav-search">
 					<div className="input-box">
