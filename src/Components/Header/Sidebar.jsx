@@ -1,4 +1,4 @@
-import React from 'react';
+import { Link } from 'react-router-dom';
 
 const sidebarItems = [
 	{
@@ -10,25 +10,25 @@ const sidebarItems = [
 
 	{
 		title: 'Playlists',
-		link: '/explore',
+		link: '/playlists',
 		icon: <i class="fas fa-photo-video"></i>,
 		isSelected: false,
 	},
 	{
 		title: 'Liked',
-		link: '/explore',
+		link: '/liked',
 		icon: <i class="fas fa-thumbs-up"></i>,
 		isSelected: false,
 	},
 	{
 		title: 'Watch Later',
-		link: '/explore',
+		link: '/watchlater',
 		icon: <i class="fas fa-bookmark"></i>,
 		isSelected: false,
 	},
 	{
 		title: 'History',
-		link: '/explore',
+		link: '/history',
 		icon: <i class="fas fa-history"></i>,
 		isSelected: false,
 	},
@@ -39,15 +39,17 @@ function Sidebar() {
 			<ul className="sidebar-list">
 				{sidebarItems.map((item) => {
 					return (
-						<li
-							className={
-								!item.isSelected ? 'sidebar-item' : 'sidebar-item is-selected'
-							}
-							key={item.title}
-						>
-							<div className="sidebar-item-icon">{item.icon}</div>
-							<div>{item.title}</div>
-						</li>
+						<Link to={item.link}>
+							<li
+								className={
+									!item.isSelected ? 'sidebar-item' : 'sidebar-item is-selected'
+								}
+								key={item.title}
+							>
+								<div className="sidebar-item-icon">{item.icon}</div>
+								<div>{item.title}</div>
+							</li>
+						</Link>
 					);
 				})}
 			</ul>
