@@ -1,0 +1,6 @@
+.tiles {
+	background-color: red;
+	margin: 2rem;
+	padding: 4rem;
+	flex-wrap: wrap;
+}

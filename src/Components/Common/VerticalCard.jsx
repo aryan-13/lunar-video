@@ -12,9 +12,9 @@ function VerticalCard() {
 			<div class="card-header u-margin-bottom-small">
 				<div class="flex-row p-md bold-0 heading-box">
 					Our Changing Planet
-					<a href="" class="btn btn-tertiary-icon">
+					<button href="" class="btn btn-tertiary-icon">
 						<i class="fas fa-ellipsis-v"></i>
-					</a>
+					</button>
 				</div>
 				<br />
 				<h4 class="p-sm bold-0">
